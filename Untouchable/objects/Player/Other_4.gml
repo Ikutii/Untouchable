@@ -1,2 +1,1 @@
-life=10;
-scoreUT=999999;
+life=7;
