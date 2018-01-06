@@ -1,4 +1,1 @@
-ObjectForwardGround.x--;
-/*if(ObjectForwardGround.x==-1055){
-ObjectForwardGround.x=1055
-}*/
+//wanted to try and maybe do some paralax, with ground being on foreground
