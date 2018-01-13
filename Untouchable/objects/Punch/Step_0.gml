@@ -1,1 +1,1 @@
-x=x-5;//makes the fist fly by
+x=x-1;//makes the fist fly by

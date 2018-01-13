@@ -1,0 +1,13 @@
+menu[0]="Back";//the lsit of options
+list[0]="Design/Graphics:"
+list[1]="Karidyas"
+list[2]=""
+list[3]="Music:"
+list[4]="Vanstesan"
+list[5]=""
+list[6]="Code:"
+list[7]="Tuan"
+list[8]="Ikuti | Twitter: @Ikuti_Dev"
+list[9]=""
+space=64;//space beetwen the options
+mpos=0;//starting place of cursor

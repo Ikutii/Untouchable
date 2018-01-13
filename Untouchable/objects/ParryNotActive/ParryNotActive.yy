@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "ParryNotActive",
     "eventList": [
-        
+        {
+            "id": "bf228dd7-0aa4-4203-8065-7878ccb70cac",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "23810923-f6a1-4d54-bcd4-77121f076f6a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
