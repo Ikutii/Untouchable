@@ -1,5 +1,8 @@
 //turn on the aniamtion of walking after parry animation ends
-sprite_index=PlaceHolderPlayerSpriteStanding;
+sprite_index=PlayerStanding;
+if(image_xscale==-1){
+image_xscale=1
+}
 leftparry=false;
 rightparry=false;
 upparry=false;//this makes sure that no action fo parrying is being run while the last one ends

@@ -1,0 +1,1 @@
+x=Player.x;
