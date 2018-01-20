@@ -1,11 +1,11 @@
 if(fighting==false){
 if(left==false){
 x=x-2;
-sprite_index=EnemyRun;
+sprite_index=MidNinjaColoredRun;
 }
 if(left==true){
 x=x+2;
-sprite_index=EnemyRun;
+sprite_index=MidNinjaColoredRun;
 }
 }
 else{
