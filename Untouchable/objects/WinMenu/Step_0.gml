@@ -15,6 +15,7 @@ mpos=0;
 var push;
 push = max(keyboard_check_released(vk_enter),keyboard_check_released(vk_space),0);
 if(push == 1){
-room_goto(0);
+	audio_stop_all(); //just in case the music breaks
+	room_goto(0);
 }
 //if a player pressed enter, space enter the submenu

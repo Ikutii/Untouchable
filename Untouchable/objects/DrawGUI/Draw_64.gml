@@ -9,4 +9,6 @@ Healthx=Healthx+20;//adds to the coordinate, so all parts won't be drawn in the 
 }
 //draw_text(660,12,string(Player.hit));//debug value for checking if player was hit
 draw_text(860,12,string(score));//drawing the current score
-draw_text(400, 32, "FPS = " + string(fps));
+draw_text(400, 12, "FPS = " + string(fps));
+
+draw_text(250,60,"Parry red ninja with Left and Right, Parry blue ninja with Up");
