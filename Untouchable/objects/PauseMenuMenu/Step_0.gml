@@ -15,14 +15,15 @@ mpos=0;
 var push;
 push = max(keyboard_check_released(vk_enter),keyboard_check_released(vk_space),0);
 if(push == 1 && mpos==1){
-room_goto(0);
+	audio_stop_sound(level1_bkg);
+	room_goto(0);
 }
 if(push == 1 && mpos==0){
 	var background = layer_background_get_id(layer_get_id("Background"));
-layer_background_sprite(background, PlaceHolderBackgroundSprite);
-with (PauseMenuMenu)
+	layer_background_sprite(background, Background);
+	with (PauseMenuMenu)
    {
-    instance_destroy();
+		instance_destroy();
    }
 	instance_activate_all();
 	PauseMenu.firstpress1=0;

@@ -1,10 +1,7 @@
-globalvar Music;
 globalvar slider1;
 globalvar slider2;
 globalvar slider3;
 globalvar scores;
-global.Music=TestMusic;
-audio_play_sound(global.Music, 0, true);
 if !file_exists("saveddata.ini"){
 	global.slider1=20;
 global.slider2=20;
@@ -32,4 +29,4 @@ global.slider2=ini_read_real("Volume","Sound",0);
 ini_close();
 }
 audio_master_gain(global.slider3*0.05);
-audio_sound_gain(global.Music, global.slider1*0.05,0);
+//audio_sound_gain(global.Music, global.slider1*0.05,0);

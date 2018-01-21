@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "3da7fa61-2199-4c9c-b49b-c756b8a9a6f1",
+            "Value": {
+                "id": "019ea268-0cec-44d1-85ea-668be7a7a2a8",
+                "resourcePath": "sounds\\snd_PlayerDie\\snd_PlayerDie.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3e9dfcd9-2723-4527-afcd-d5a661ccdffc",
             "Value": {
                 "id": "efe7df9c-134a-4f79-9281-d5f8a435aebf",
@@ -631,11 +639,27 @@
             }
         },
         {
+            "Key": "93c4c92b-018f-4ca1-9654-304b9039b8fd",
+            "Value": {
+                "id": "7177d69e-b778-427b-a435-ce46f34098fe",
+                "resourcePath": "objects\\BkgMusicController\\BkgMusicController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "946497f3-2b35-4332-b528-3da959d4c456",
             "Value": {
                 "id": "6875d3af-b126-43b4-8fe9-1180ce490a16",
                 "resourcePath": "sprites\\PC_walk_039\\PC_walk_039.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "95069e18-a1b8-4176-a989-dd20bf560524",
+            "Value": {
+                "id": "99e1d8e1-2087-4c1c-a5e2-79de28c4d336",
+                "resourcePath": "sounds\\snd_MidParryFail\\snd_MidParryFail.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -823,6 +847,14 @@
             }
         },
         {
+            "Key": "b1a0d402-d44b-4b87-b91b-331bd6ba4cb8",
+            "Value": {
+                "id": "32f3d855-168a-43f0-83c8-edf3097546bc",
+                "resourcePath": "sounds\\snd_HighParryFail\\snd_HighParryFail.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b2ae01c9-6dec-40dd-8547-237e22e204cd",
             "Value": {
                 "id": "326f1c50-1aac-4699-a4f8-bca7bc8d89d7",
@@ -948,6 +980,14 @@
                 "id": "b1ae86d0-bb03-4cf3-b5a7-39136a77b138",
                 "resourcePath": "sprites\\Cursor\\Cursor.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ca9acd63-fcca-40a9-8a0c-859bd785c641",
+            "Value": {
+                "id": "94e2184e-aaf0-48e4-ae5d-680ef74e7d62",
+                "resourcePath": "sounds\\level1_bkg\\level1_bkg.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1300,6 +1340,14 @@
                 "id": "d8b1c99a-6972-4da8-a78b-46172046c0bf",
                 "resourcePath": "options\\xboxone\\options_xboxone.yy",
                 "resourceType": "GMXBoxOneOptions"
+            }
+        },
+        {
+            "Key": "f9ff27b7-1532-47b2-aafa-90d28b54ff5e",
+            "Value": {
+                "id": "f548f72c-a9df-46e0-87e8-366e2f976c98",
+                "resourcePath": "sounds\\snd_ParrySuccess\\snd_ParrySuccess.yy",
+                "resourceType": "GMSound"
             }
         },
         {

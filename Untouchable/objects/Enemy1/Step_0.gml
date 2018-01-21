@@ -1,21 +1,21 @@
 if(fighting==false){
-if(left==false){
-x=x-2;
-sprite_index=HighNinjaColoredRun;
-}
-if(left==true){
-x=x+2;
-sprite_index=HighNinjaColoredRun;
-}
+	if(left==false){
+		x=x-2;
+		sprite_index=HighNinjaColoredRun;
+	}
+	if(left==true){
+		x=x+2;
+		sprite_index=HighNinjaColoredRun;
+	}
 }
 else{
-if(image_index>=0.53 && image_index<0.55 && punch1==false){
-	punch1=true;
-	if(left==true){
-		instance_create_depth(x+32,y-32,0,Punch);
+	if(image_index>=0.53 && image_index<0.55 && punch1==false){
+		punch1=true;
+		if(left==true){
+			instance_create_depth(x+32,y-32,0,Punch);
+		}
+		else{
+			instance_create_depth(x-72,y-32,0,Punch);
+		}
 	}
-	else{
-instance_create_depth(x-72,y-32,0,Punch);
-	}
-}
 }

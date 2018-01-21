@@ -1,11 +1,11 @@
 if(fighting==true){
 	fighting=false;
-if(left==false){
+	if(left==false){
 		image_xscale=1;
-left=true;
-}
-else{
+		left=true;
+	}
+	else{
 		image_xscale=-1;
-left=false;
-}
+	left=false;
+	}
 }
